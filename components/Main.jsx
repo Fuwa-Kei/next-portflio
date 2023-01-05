@@ -3,8 +3,8 @@ import {FaLinkedin, FaGithub } from 'react-icons/fa'
 
 function main() {
   return (
-    // <div className="w-full md:h-screen flex items-center py-2 ">
-        <div className=" max-w-[1024px] h-full mx-auto p-2 flex justify-center items-center">
+    <div className="w-full h-screen flex items-center ">
+        <div className=" max-w-[1024px] mx-auto flex justify-center items-center px-8">
             <div className='text-center'>
                 <p className='uppercase text-sm tracking-widest'>Welcome to my portfolio</p>
                 <h1 className='py-4'>Hello, I'm Kei </h1>
@@ -16,7 +16,7 @@ function main() {
                 </div>
             </div>
         </div>
-    // </div>
+    </div>
 
   )
 }

@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className="sticky top-0 w-full h-20 shadow-xl bg-white">
+    <div className="sticky top-0 w-full h-20 shadow-lg bg-white">
         <div className=" flex justify-between items-center w-full h-full px-10 2xl:px-16 ">
             <Image src={logo} alt="logo" width='125' height='48' />
             <ul className='hidden md:flex'>
