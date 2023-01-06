@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
-import {FaLinkedin, FaGithub } from 'react-icons/fa'
 import logo from '../public/assets/kei-logo.png'
 
 const Navbar = () => {
