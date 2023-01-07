@@ -4,7 +4,7 @@ import SkillCard from './components/SkillCard';
 
 function Skills() {
   return (
-    <div className="w-full px-8">
+    // <div className="w-full px-8">
         <div className="max-w-[1024px] m-auto flex flex-col justify-center items-center gap-4">
             <h3 className="uppercase">Skills | Tech stack</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -18,7 +18,7 @@ function Skills() {
                 <SkillCard img={figma} text={"Figma"} />
             </div>
         </div>
-    </div>
+    // </div>
   )
 }
 

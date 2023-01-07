@@ -3,6 +3,7 @@ import Navbar from '../containers/Navbar'
 import Main from '../containers/Main'
 import About from '../containers/About'
 import Skills from '../containers/Skills'
+import Projects from '../containers/Projects'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <Main />
           <About />
           <Skills />
+          <Projects />
       </main>
     </>
   )
