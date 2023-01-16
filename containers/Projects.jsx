@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import carbon from '../public/assets/projects/carbonAltDel.png'
+import project1 from '../public/assets/projects/carbonaltdel-overview.png'
 import Project from './components/Project';
 
 function Projects() {
@@ -9,8 +10,8 @@ function Projects() {
         <h3 className="text-center uppercase pb-8">Projects</h3>
     <div className=" flex justify-center lg:justify-between items-start flex-wrap px-8 gap-16">
         <Project 
-            img={carbon} 
-            title="E-commerce" 
+            img={project1} 
+            title="Carbon Alt Delete" 
             description="First hackthon project hosted by Llyods bank x Athena"
             url="/"
         />

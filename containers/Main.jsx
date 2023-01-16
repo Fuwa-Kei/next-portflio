@@ -3,7 +3,7 @@ import {FaLinkedin, FaGithub } from 'react-icons/fa'
 
 function main() {
   return (
-    <div className="w-full flex items-center pt-16 md:h-screen">
+    <div className="w-full flex items-center pt-16 mb-32 mt-16">
         <div className=" max-w-[1024px] mx-auto flex justify-center items-center px-8">
             <div className='text-center'>
                 <p className='uppercase text-sm tracking-widest'>Welcome to my portfolio</p>
