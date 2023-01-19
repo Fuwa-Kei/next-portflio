@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
@@ -6,29 +6,41 @@ import logo from '../public/assets/kei-logo.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
+    const [shadow, setShadow] = useState(false);
 
     const handleNav = () => {
         setNav(!nav);
     }
 
+    useEffect(() => {
+        const handleShadow = () => {
+            if (window.scrollY >= 100) {
+                setShadow(true)
+            } else {
+                setShadow(false)
+            }
+        }
+        window.addEventListener('scroll', handleShadow);
+    }, [])
+
   return (
-    <div className="sticky top-0 w-full h-20 shadow-lg bg-white">
+    <div className={shadow ? "fixed top-0 w-full h-20 shadow-lg bg-white" : "fixed top-0 w-full h-20 bg-white"}>
         <div className=" flex justify-between items-center w-full h-full px-10 2xl:px-16 ">
             <Image src={logo} alt="logo" width='125' height='48' />
             <ul className='hidden md:flex'>
             <Link href='/'>
                 <li className='ml-10 text-sm  hover:border-b'>Home</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#about'>
                 <li className='ml-10 text-sm hover:border-b'>About</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#skills'>
                 <li className='ml-10 text-sm hover:border-b'>Skills</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#projects'>
                 <li className='ml-10 text-sm hover:border-b'>Projects</li>
             </Link>
-            <Link href='/'>
+            <Link href='https://cv-fuwa-kei.vercel.app/' target="_blank">
                 <li className='ml-10 text-sm hover:border-b'>resume</li>
             </Link>
             <Link href='/'>
@@ -51,16 +63,16 @@ const Navbar = () => {
                     <Link href='/'>
                         <li className='py-4 text-sm hover:border-b'>Home</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#about' onClick={handleNav}>
                         <li className='py-4 text-sm hover:border-b'>About</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#skills' onClick={handleNav}>
                         <li className='py-4 text-sm hover:border-b'>Skills</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#projects' onClick={handleNav}>
                         <li className='py-4 text-sm hover:border-b'>Projects</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/https://cv-fuwa-kei.vercel.app/'>
                         <li className='py-4 text-sm hover:border-b'>resume</li>
                     </Link>
                     <Link href='/'>

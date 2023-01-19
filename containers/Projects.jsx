@@ -6,14 +6,14 @@ import Project from './components/Project';
 
 function Projects() {
   return (
-    <div className="max-w-[1024px] mx-auto py-32 ">
+    <div id="projects" className="max-w-[1024px] mx-auto py-32 ">
         <h3 className="text-center uppercase pb-8">Projects</h3>
     <div className=" flex justify-center lg:justify-between items-start flex-wrap px-8 gap-16">
         <Project 
             img={project1} 
             title="Carbon Alt Delete" 
             description="First hackthon project hosted by Llyods bank x Athena"
-            url="/"
+            url="/carbon"
         />
 
         <Project 
