@@ -52,9 +52,9 @@ function others() {
         
           <div className=" max-w-[1024px] m-auto md:grid grid-cols-2 gap-8 items-center px-8 my-20">
             <div className="col-span-1 pt-8 md:pt-0 text-justify">
-            <h4 className=" text-[#2EC4B6]">Simon's Game</h4>
+            <h4 className=" text-[#2EC4B6]">Simon&apos;s Game</h4>
                 <p>JQuery</p>
-                <p className="mt-4">This was created as part of the Angelu Yu's web development bootcamp course. This was one of the first 'complete' projects I made and it really helped me understand the basics of how javascript(jquery) worked</p>
+                <p className="mt-4">This was created as part of the Angelu Yu&apos;s web development bootcamp course. This was one of the first &apos;complete&apos; projects I made and it really helped me understand the basics of how javascript(jquery) worked</p>
                 <p className="mt-4"><Link href='https://github.com/Fuwa-Kei/Simon-Game' target="_blank">Github</Link> | <Link href='https://fuwa-kei.github.io/Simon-Game/' target="_blank">Demo</Link></p>
               </div>
             <div>
