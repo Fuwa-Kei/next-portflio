@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from "next/image";
-import carbon from '../public/assets/projects/carbonAltDel.png'
 import project1 from '../public/assets/projects/carbonaltdel-overview.png'
+import studyperks from '../public/assets/projects/studyperks-overview.png'
+import misc from '../public/assets/projects/misc-overview.png'
 import Project from './components/Project';
 
 function Projects() {
@@ -12,40 +12,26 @@ function Projects() {
         <Project 
             img={project1} 
             title="Carbon Alt Delete" 
-            description="First hackthon project hosted by Llyods bank x Athena"
+            description="Hackthon project hosted by Llyods bank x Athena (Road to net zero)"
             url="/carbon"
+            tech="HTML | CSS | React"
         />
 
         <Project 
-            img={carbon} 
-            title="E-commerce" 
-            description="First hackthon project hosted by Llyods bank x Athena"
-            url="/"
+            img={studyperks} 
+            title="StudyPerks" 
+            description="Hackathon project hosted by MLH (Eduhacks)"
+            url="/study"
+            tech="HTML | CSS | React | Firebase"
         />
-        <div className="border border-white-500 rounded-lg w-[400px] shadow-lg">
-            <Image src={carbon} alt="carbonAltDel" width={400} height={442} />
-            <div className="p-8">
-                <p>First hackthon project hosted by Llyods bank x Athena</p>
-                <br />
-                <p>More about this project</p>
-            </div>
-        </div>
-        <div className="border border-white-500 rounded-lg w-[400px]">
-            <Image src={carbon} alt="carbonAltDel" width={400} height={442} />
-            <div className="p-8">
-                <p>First hackthon project hosted by Llyods bank x Athena</p>
-                <br />
-                <p>More about this project</p>
-            </div>
-        </div>
-        <div className="border border-white-500 rounded-lg w-[400px]">
-            <Image src={carbon} alt="carbonAltDel" width={400} height={442} />
-            <div className="p-8">
-                <p>First hackthon project hosted by Llyods bank x Athena</p>
-                <br />
-                <p>More about this project</p>
-            </div>
-        </div>
+
+        <Project 
+            img={misc} 
+            title="Small Projects" 
+            description="Projects I did for practice and learning new skills "
+            url="/study"
+            tech="HTML | CSS | React | APIs | JQuery | Tailwind | Nextjs"
+        />
     </div>
     </div>
   )

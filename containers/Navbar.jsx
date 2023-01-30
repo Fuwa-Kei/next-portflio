@@ -26,8 +26,8 @@ const Navbar = () => {
   return (
     <div className={shadow ? "fixed top-0 w-full h-20 shadow-lg bg-white" : "fixed top-0 w-full h-20 bg-white"}>
         <div className=" flex justify-between items-center w-full h-full px-10 2xl:px-16 ">
-            <Image src={logo} alt="logo" width='125' height='48' />
-            <ul className='hidden md:flex'>
+            <Image src={logo} alt="logo" width='230' height='48' />
+            <ul className='hidden md:flex cursor-pointer uppercase'>
             <Link href='/'>
                 <li className='ml-10 text-sm  hover:border-b'>Home</li>
             </Link>
@@ -72,7 +72,7 @@ const Navbar = () => {
                     <Link href='/#projects' onClick={handleNav}>
                         <li className='py-4 text-sm hover:border-b'>Projects</li>
                     </Link>
-                    <Link href='/https://cv-fuwa-kei.vercel.app/'>
+                    <Link href='https://cv-fuwa-kei.vercel.app/'>
                         <li className='py-4 text-sm hover:border-b'>resume</li>
                     </Link>
                     <Link href='/'>
