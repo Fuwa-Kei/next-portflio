@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className={shadow ? "fixed top-0 w-full h-20 shadow-lg bg-white" : "fixed top-0 w-full h-20 bg-white"}>
         <div className=" flex justify-between items-center w-full h-full px-10 2xl:px-16 ">
-            <Image src={logo} alt="logo" width='200' height='48' />
+            <Image src={logo} alt="logo" width='150' height='48' />
             <ul className='hidden lg:flex cursor-pointer uppercase'>
             <Link href='/'>
                 <li className='ml-10 text-sm  hover:border-b'>Home</li>
