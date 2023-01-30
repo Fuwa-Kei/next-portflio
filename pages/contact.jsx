@@ -4,7 +4,7 @@ import Navbar from '../containers/Navbar'
 import emailjs from '@emailjs/browser';
 import Link from 'next/link'
 
-function contact() {
+function Contact() {
 
     const form = useRef();
 
@@ -45,4 +45,4 @@ function contact() {
   )
 }
 
-export default contact
+export default Contact
