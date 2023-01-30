@@ -29,7 +29,7 @@ function Projects() {
             img={misc} 
             title="Small Projects" 
             description="Projects I did for practice and learning new skills "
-            url="/study"
+            url="/others"
             tech="HTML | CSS | React | APIs | JQuery | Tailwind | Nextjs"
         />
     </div>
