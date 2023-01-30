@@ -3,10 +3,12 @@ import React, { useRef } from 'react'
 import Navbar from '../containers/Navbar'
 import emailjs from '@emailjs/browser';
 import Link from 'next/link'
+import { useRouter } from 'next/navigation';
 
 function Contact() {
 
     const form = useRef();
+    const router = useRouter();
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -18,6 +20,7 @@ function Contact() {
               console.log(error.text);
           });
           form.current.reset();
+          router.push('/success')
       };
 
       
@@ -37,7 +40,8 @@ function Contact() {
                     <input className=" border-b w-full text-gray-700 mr-3 py-4 px-2 focus:outline-none" type="email" name="email" placeholder="Email" />
                     <input className=" border-b w-full text-gray-700 mr-3 py-4 px-2 focus:outline-none" type="text" name="subject" placeholder="Subject" />
                     <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 rounded-sm border border-gray-300 focus:outline-none" name="message" placeholder="Message" />
-                    <Link href="/success" className="text-black"><input type="submit" value="Send" className="border border-gray-300 rounded-md py-2 px-4 mt-4 bg-orange-300 cursor-pointer hover:bg-orange-400 focus:scale-95" /></Link>
+                    <input type="submit" value="Send" className="border border-gray-300 rounded-md py-2 px-4 mt-4 bg-orange-300 cursor-pointer hover:bg-orange-400 focus:scale-95" />
+
                 </form>
             </div>
         </div>
