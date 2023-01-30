@@ -13,7 +13,8 @@ function About() {
             </div>
             <div className="col-span-1 pt-8 md:pt-0">
                 <p>From Pastry chef to Designer and web developer</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className="my-4">After 10 years working in hospitality and reaching head pastry chef position, I wanted a change, wanted to learn something new. This was when my friend told me to learn coding. At first I had no idea where to start, I was learning javascript, python, the cs50 program and also UX design all at the same time. Then after about 3 weeks I settled down to following Angela Yu's web development course. I was also invited by my friend to join her on the lloyds x Athena hackathon, and it was during this time I found myself totally engrossed the who process especially the sense of satisfaction when I was able to code the site to be exactly as I had designed it in Figma. </p>
+                <p>Since then I have been working on learning as much as I can regarding UI/UX design and front-end web development while still working my 55hr job.</p>
             </div>
             <div id="skills"></div>
         </div>
