@@ -18,9 +18,9 @@ export default function Home() {
       <main >
           <Navbar />
           <Main />
-          <About />
-          <Skills />
           <Projects />
+          <Skills />
+          <About />
       </main>
     </>
   )
