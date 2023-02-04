@@ -4,7 +4,7 @@ import kei from '../public/assets/Keijoy2.png'
 
 function About() {
   return (
-    <div>
+    <div id="about">
       <h3 className=" text-center uppercase mb-10">About Me</h3>
         <div className=" max-w-[1024px] m-auto md:grid grid-cols-2 gap-8 items-center px-8 mb-36">
             

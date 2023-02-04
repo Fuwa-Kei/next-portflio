@@ -32,7 +32,9 @@ function Projects() {
             url="/others"
             tech="HTML | CSS | React | APIs | JQuery | Tailwind | Nextjs"
         />
+        
     </div>
+    <div id="skills"></div>
     </div>
   )
 }

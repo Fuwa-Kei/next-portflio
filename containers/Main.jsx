@@ -4,7 +4,7 @@ import {FaLinkedin, FaGithub } from 'react-icons/fa'
 
 function main() {
   return (
-    <div id="home" className="w-full flex items-center pt-16 mb-36 mt-16">
+    <div id="home" className="w-full flex items-center pt-16 mt-16">
         <div className=" max-w-[1024px] mx-auto flex justify-center items-center px-8">
             <div className='text-center'>
                 <p className='uppercase text-sm tracking-widest'>Welcome to my portfolio</p>
@@ -16,7 +16,7 @@ function main() {
                 <Link href="https://github.com/Fuwa-Kei" target="_blank"><FaGithub size={25} className='mx-4 text-[#ff9f1c]'/></Link>
                 <Link href="https://www.linkedin.com/in/kei-chan-482a4b257/" target="_blank"><FaLinkedin size={25} className='mx-4 text-[#ff9f1c]'/></Link>
                 </div>
-                <div id="about"></div>
+                <div id="project"></div>
             </div>
         </div>
         
