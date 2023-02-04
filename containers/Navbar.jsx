@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
-import logo from '../public/assets/kc-logo.png'
+import logo from '../public/assets/keichan_logo_001.svg'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
