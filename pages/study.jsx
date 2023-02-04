@@ -46,7 +46,7 @@ function study() {
               <h4 className=" text-[#EA526F]">Difficulties I had</h4>
               <p>I ran into an issue were no matter what I did I wasnt able to get a 2nd modal to appear but luckily managed to solve the problem with SweetAlert. Firebase also gave me many error messages to solve and is still something I need to study a lot more on </p>
               <h4 className="  text-[#EA526F] mt-4">Whats next for StudyPerks</h4>
-              <p>This was a project I really enjoyed creating and plan to complete it with a fully functioning chatrooms including a pomodoro timer and games. As I learn more about databases, I will update the project with profile so that it will display actual stats for each user. </p>
+              <p>This was a project I really enjoyed creating and plan to complete it with fully functioning chatrooms including a pomodoro timer and games. I would also love to be able update the profile so that it will display actual stats for each user. </p>
             </div>
             <div>
               <Image src={profile} alt="profile image" width={1000} className="width-300 mx-auto border border-white-500 rounded-lg md:hover:scale-150 ease-in duration-300" />
