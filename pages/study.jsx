@@ -14,7 +14,9 @@ function study() {
           <h1 className=" text-[#EA526F] mb-4">StudyPerks</h1>
           <h4>Hackathon project for MLH - Eduhacks</h4>
           <p>A co-study platform where users can register and join virtual rooms to study together with other people</p>
-          <p>For Demo purposes, click login for profile and the first room to access the chatroom</p>
+          <br />
+          <p>For demo purposes, click login for profile and the first room to access the chatroom</p>
+          
           <p>Login email: demo@demo.com | password: Demo123</p>
           <p className="text-[#FF8A5B] flex gap-8 justify-center mt-4">
             <Link href='https://github.com/Fuwa-Kei/studyperks--front-end-only-' target="_blank">Github</Link>
