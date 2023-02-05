@@ -50,7 +50,7 @@ const carbon = () => {
             The biggest challenge was using React and understanding how it worked. I also challenged myself to create a functioning cart which I found quite difficult but enjoyable as I was able to learn about the useContext API..
  </p>
             <h4 className=" text-[#52796F] mt-4">What's next for Carbon Alt Delete</h4>
-            <p>As I continue to improve my skills and understanding of e-commerce sites, I wish to continue this project and make it fully functioning with a database of products, authentication and the ability to checkout/accept payments.</p>
+            <p>As I continue to improve my skills and understanding of e-commerce sites, I wish to continue this project and make it fully functioning, by incorporating Sanity for product management and Stripe for payments.</p>
           </div>
           <div>
             <Image src={products} alt="profile image" width={1000} className="width-300 mx-auto border border-white-500 rounded-lg md:hover:scale-150 ease-in duration-300" />
