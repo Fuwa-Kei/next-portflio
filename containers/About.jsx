@@ -12,10 +12,9 @@ function About() {
             <Image src={kei} alt="profile image" width={300} className="mx-auto" />
             </div>
             <div className="col-span-1 pt-8 md:pt-0">
-                <p>From Pastry chef to Web developer</p>
-                <p className="my-4">After 10 years working in hospitality and reaching head pastry chef position, I wanted a change, wanted to learn something new. This was when my friend told me to learn coding. At first I had no idea where to start, I was learning javascript, python, the cs50 program and also UX design all at the same time. Then after about 3 weeks I settled down to following Angela Yu's web development course. I was also invited by my friend to join her on the lloyds x Athena hackathon, and it was during this time I found myself totally engrossed in the whole process, especially the sense of satisfaction when I was able to code the site to be exactly as designed in Figma.
-</p><p>Since then I have been working on learning as much as I can regarding UI/UX design and front-end web development while still working my 55hr job.
-</p>
+                <p>From Pastry Chef to Web Developer</p>
+                <p className="my-4">After 10 years working in hospitality and reaching Head Pastry Chef position, I started to teach myself coding via resources online to learn something new. At first I found it quite challenging to learn everything while balancing my 55hr job, then after about 3 weeks I settled down to following Angela Yu's web development course which was more structured. I participated in the Lloyds Bank x Athena hackathon to experience the process of creating a project from scratch. It was during this time I found myself totally engrossed in the whole process, especially the sense of satisfaction when I was able to code the site to be exactly as designed in Figma.
+              </p>
             </div>
         </div>
     </div>
