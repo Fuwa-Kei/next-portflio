@@ -42,12 +42,12 @@ const Navbar = () => {
             </Link>
             
                 <li className='ml-10 text-sm hover:border-b'>
-                    <Link href='https://cv.keichan.uk' target="_blank">resume </Link>
+                    <Link href='https://cv-fuwa-kei.vercel.app/' target="_blank">Resume </Link>
                     (<Link href="https://docs.google.com/document/d/1zF50bxlmbIsgWa4B_QcKuC2j42MEBkpXdwUKrOgQtTI/edit?usp=sharing" target="_blank">Printable</Link>)
                     </li>
             
             <Link href='/contact'>
-                <li className='ml-10 text-sm hover:border-b'>contact</li>
+                <li className='ml-10 text-sm hover:border-b'>Contact</li>
             </Link>
         </ul>
         <div onClick={handleNav} className='lg:hidden'>
@@ -76,11 +76,11 @@ const Navbar = () => {
                         <li className='py-4 text-sm hover:border-b'>Projects</li>
                     </Link>
                     <li className='py-4 text-sm hover:border-b'>
-                    <Link href='https://cv.keichan.uk' target="_blank">resume </Link>
+                    <Link href='https://cv-fuwa-kei.vercel.app/' target="_blank">Resume </Link>
                     (<Link href="https://docs.google.com/document/d/1zF50bxlmbIsgWa4B_QcKuC2j42MEBkpXdwUKrOgQtTI/edit?usp=sharing" target="_blank">Printable</Link>)
                     </li>
                     <Link href='/contact'>
-                        <li className='py-4 text-sm hover:border-b'>contact</li>
+                        <li className='py-4 text-sm hover:border-b'>Contact</li>
                     </Link>
                     </ul>
                 </div>

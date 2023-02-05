@@ -12,7 +12,7 @@ function Projects() {
         <Project 
             img={project1} 
             title="Carbon Alt Delete" 
-            description="Hackthon project hosted by Llyods bank x Athena (Road to net zero)"
+            description="Hackathon project hosted by Lloyds bank x Athena (Road to net zero)"
             url="/carbon"
             tech="HTML | CSS | React"
         />
