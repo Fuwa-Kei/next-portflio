@@ -16,7 +16,7 @@ function About() {
                 <p>From Pastry Chef to Web Developer</p>
                 <p className="my-4">I’m a self taught web developer, learning from various resources online either through online courses, youtube tutorials or just simply Googling everything I don’t know whenever I get stuck at trying to figure something out while working on a project. I’m currently focusing on learning about UI/UX design since I found myself really enjoying the design process of creating web applications. 
                 <br />
-                Please read more about my coding journey <Link href="https://dev.to/fuwa/my-coding-journey-kia">HERE</Link>
+                Please read more about my coding journey <Link href="https://dev.to/fuwa/my-coding-journey-kia" target="_blank">HERE</Link>
 
               </p>
             </div>
